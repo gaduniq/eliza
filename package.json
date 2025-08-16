@@ -1,15 +1,16 @@
 {
-  "name": "sei-swap-plugin-test",
+  "name": "sei-swap-plugin-native",
   "version": "1.0.0",
-  "description": "Test environment for SEI swap plugin",
-  "main": "plugin-sei-swap.ts",
+  "description": "SEI native DEX swap plugin using Bank Precompile",
+  "main": "plugin-sei-native.ts",
   "scripts": {
-    "test-balance": "node test-balance.js"
+    "test-balance": "node test-balance.js",
+    "test-sei-native": "node test-sei-native.js"
   },
   "dependencies": {
     "viem": "^2.33.3",
-    "symphony-sdk": "latest",
-    "zod": "^3.22.4"
+    "zod": "^3.22.4",
+    "ethers": "^6.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
