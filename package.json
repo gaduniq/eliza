@@ -1,0 +1,21 @@
+{
+  "name": "sei-swap-plugin-native",
+  "version": "1.0.0",
+  "description": "SEI native DEX swap plugin using official SEI precompiles",
+  "main": "plugin-sei-native-real.ts",
+  "scripts": {
+    "test-balance": "node test-balance.js",
+    "test-sei-native": "node test-sei-native.js",
+    "test-real-sei": "node test-real-sei.js"
+  },
+  "dependencies": {
+    "viem": "^2.33.3",
+    "@sei-js/precompiles": "latest",
+    "zod": "^3.22.4",
+    "ethers": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
