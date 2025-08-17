@@ -1,0 +1,51 @@
+{
+  "name": "@elizaos/plugin-sei-nft",
+  "version": "1.0.0",
+  "description": "Comprehensive SEI NFT plugin for ElizaOS with Magic Eden integration",
+  "main": "sei-nft-plugin.ts",
+  "types": "sei-nft-plugin.ts",
+  "keywords": [
+    "elizaos",
+    "plugin",
+    "sei",
+    "nft",
+    "blockchain",
+    "magic-eden",
+    "web3",
+    "cryptocurrency"
+  ],
+  "author": "ElizaOS Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elizaos/eliza.git",
+    "directory": "packages/plugin-sei-nft"
+  },
+  "dependencies": {
+    "@elizaos/core": "latest",
+    "axios": "^1.6.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": {
+    "@elizaos/core": "*"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "echo \"Tests to be implemented\" && exit 0",
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier --write ."
+  },
+  "files": [
+    "sei-nft-plugin.ts",
+    "README.md",
+    "package.json"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
